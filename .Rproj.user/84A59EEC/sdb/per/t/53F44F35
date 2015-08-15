@@ -1,0 +1,18 @@
+{
+    "contents" : "#What percentage of a sector's total consumption is spent on itself?\nlibrary(ggplot2)\n\nio <- read.csv(\"2010_domesticUsejustMatrix.csv\")\n\n#keep sector labels for later\nlabels <- unique(io$sector)\n\nio <- io[,-1]\n\n#Matrix form\niom <- data.matrix(io)\n\n#pull out each sector's spending on itself\nselfconsume <- diag(iom)\n\n#get total sector consumption\ntotalconsume <- apply(iom, 2, FUN=sum)\n\npercentOnSelf <- (selfconsume/totalconsume) * 100\n\nboxplot(percentOnSelf)\n\n#keep for later boxplot\npercentOnSelfAll <- percentOnSelf\n\nselfSpend = data.frame(labels, percentOnSelf)\n\nselfSpend$labels <- reorder(selfSpend$labels, -selfSpend$percentOnSelf)\n\noutput <- ggplot(selfSpend, aes(x = labels, y = percentOnSelf, fill = percentOnSelf)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip()\n\noutput\n\n#repeat for heavy sectors\niom <- io[1:58,1:58]\niom <- data.matrix(iom)\n\n#pull out each sector's spending on itself\nselfconsume <- diag(iom)\n\n#get total sector consumption\ntotalconsume <- apply(iom, 2, FUN=sum)\n\npercentOnSelf <- (selfconsume/totalconsume) * 100\n\nselfSpend = data.frame(labels[1:58], percentOnSelf)\n\nselfSpend$labels <- reorder(selfSpend$labels, -selfSpend$percentOnSelf)\n\noutput <- ggplot(selfSpend, aes(x = labels, y = percentOnSelf, fill = percentOnSelf)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip()\n\noutput\n\n#compare to all to heavy\nselfspendcomp <- data.frame(percent = percentOnSelfAll, type=\"all\")\nselfspendcomp <- rbind(selfspendcomp, data.frame(percent = percentOnSelf, type=\"heavy\"))\n\noutput <- ggplot(selfspendcomp, aes(x = type, y = percent)) +\n  geom_boxplot()\n\noutput",
+    "created" : 1435844990106.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2957710169",
+    "id" : "53F44F35",
+    "lastKnownWriteTime" : 1435849552,
+    "path" : "C:/Users/geodo/Dropbox/R/Workspace/SupplyUseMatrix/whatPercentOfSectorsConsumptionIsSpentOnItself.R",
+    "project_path" : "whatPercentOfSectorsConsumptionIsSpentOnItself.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

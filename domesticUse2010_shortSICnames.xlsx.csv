@@ -1,0 +1,105 @@
+SIC,longname,shortname
+1,"Products of agriculture, hunting and related services         ",agri
+2,"Products of forestry, logging and related services         ",forestry
+3,Fish and other fishing products; aquaculture products; support services to fishing     ,fish
+5,Coal and lignite             ,coal
+06 & 07,Crude petroleum and natural gas & Metal ores       ,crude/gas/ore
+8,Other mining and quarrying products           ,other mining/quarry
+9,Mining support services             ,mining support
+10.1,Preserved meat and meat products           ,preserved meat/fish
+10.2-3,"Processed and preserved fish, crustaceans, molluscs, fruit and vegetables       ",processed fish/veg
+10.4,Vegetable and animal oils and fats          ,oils/fats
+10.5,Dairy products              ,dairy
+10.6,"Grain mill products, starches and starch products         ",
+10.7,Bakery and farinaceous products            ,bakery
+10.8,Other food products             ,other food
+10.9,Prepared animal feeds             ,animal feeds
+11.01-6,Alcoholic beverages              ,alchohol
+11.07,Soft drinks              ,soft drinks
+12,Tobacco products              ,tobacco
+13,Textiles               ,textiles
+14,Wearing apparel              ,apparel
+15,Leather and related products            ,leather
+16,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",wood
+17,Paper and paper products            ,paper
+18,Printing and recording services            ,printing/recording
+19,Coke and refined petroleum products           ,coke/refined petrol
+20A,"Industrial gases, inorganics and fertilisers (all inorganic chemicals) - 20.11/13/15      ",gas/fertiliser
+20B,Petrochemicals - 20.14/16/17/60             ,petrochemicals
+20C,"Dyestuffs, agro-chemicals - 20.12/20            ",agro-chemicals/dye
+20.3,"Paints, varnishes and similar coatings, printing ink and mastics       ",paints/varnishes etc
+20.4,"Soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations     ",soap/detergents/cleaning
+20.5,Other chemical products             ,other chemical
+21,Basic pharmaceutical products and pharmaceutical preparations          ,pharma
+22,Rubber and plastic products            ,rubber/plastic
+23OTHER,"Glass, refractory, clay, other porcelain and ceramic, stone and abrasive products - 23.1-4/7-9   ",glass/ceramic/stone
+23.5-6,"Manufacture of cement, lime, plaster and articles of concrete, cement and plaster ",cement/lime/plaster
+24.1-3,Basic iron and steel            ,iron/steel
+24.4-5,Other basic metals and casting           ,other metals/casting
+25OTHER,"Fabricated metal products, excl. machinery and equipment and weapons & ammunition - 25.1-3/25.5-9   ",fab. metal
+25.4,Weapons and ammunition             ,weapons/ammo
+26,"Computer, electronic and optical products           ",computer/elec/opt
+27,Electrical equipment              ,electrical
+28,Machinery and equipment n.e.c.            ,machinery
+29,"Motor vehicles, trailers and semi-trailers           ",motor
+30.1,Ships and boats             ,ships/boats
+30.3,Air and spacecraft and related machinery          ,air/spacecraft
+30OTHER,Other transport equipment - 30.2/4/9           ,other transport
+31,Furniture               ,furniture
+32,Other manufactured goods             ,other manuf.
+33.15,Repair and maintenance of ships and boats         ,repair ships
+33.16,Repair and maintenance of aircraft and spacecraft         ,repair aircraft
+33OTHER,Rest of repair; Installation - 33.11-14/17/19/20          ,repair other
+35.1,"Electricity, transmission and distribution",elec. transmission
+35.2-3,Gas; distribution of gaseous fuels through mains; steam and air conditioning supply    ,
+36,Natural water; water treatment and supply services         ,water treatment/supply
+37,Sewerage services; sewage sludge            ,sewage
+38,"Waste collection, treatment and disposal services; materials recovery services       ",waste
+39,Remediation services and other waste management services         ,remediation
+41-43,Construction,construction
+45,Wholesale and retail trade and repair services of motor vehicles and motorcycles    ,motor wholesale/repair
+46,"Wholesale trade services, except of motor vehicles and motorcycles       ",wholesale trade
+47,"Retail trade services, except of motor vehicles and motorcycles       ",retail
+49.1-2,Rail transport services             ,rail
+49.3-5,"Land transport services and transport services via pipelines, excluding rail transport     ",land transport
+50,Water transport services             ,water transport
+51,Air transport services             ,air transport
+52,Warehousing and support services for transportation          ,warehouse for transport
+53,Postal and courier services            ,post/courier
+55,Accommodation services              ,accommodation
+56,Food and beverage serving services           ,food/beverage
+58,Publishing services              ,publishing
+59-60,"Motion picture, video and TV programme production services, sound recording & music publishing  & programming and broadcasting services",film/TV/recording
+61,Telecommunications services              ,telecoms
+62,"Computer programming, consultancy and related services          ",programming
+63,Information services              ,information
+64,"Financial services, except insurance and pension funding         ",finance
+65.1-3,"Insurance, reinsurance and pension funding services, except compulsory social security & Pensions",insurance
+66,Services auxiliary to financial services and insurance services        ,finance services
+68.1-2,"Real estate services, excluding on a fee or contract basis and imputed rent   ",real estate
+68.3,Real estate services on a fee or contract basis       ,real estate contract
+69.1,Legal services              ,legal
+69.2,"Accounting, bookkeeping and auditing services; tax consulting services        ",accounting
+70,Services of head offices; management consulting services         ,management
+71,Architectural and engineering services; technical testing and analysis services       ,architect/engineer
+72,Scientific research and development services           ,scientific
+73,Advertising and market research services           ,advertising
+74,"Other professional, scientific and technical services          ",other professional
+75,Veterinary services              ,vet
+77,Rental and leasing services            ,rental/leasing
+78,Employment services              ,employment serv.
+79,"Travel agency, tour operator and other reservation services and related services     ",travel/tour
+80,Security and investigation services            ,security/investig.
+81,Services to buildings and landscape           ,landscape/building serv.
+82,"Office administrative, office support and other business support services       ",office support
+84,Public administration and defence services; compulsory social security services       ,public/defence/social 
+85,Education services              ,education
+86,Human health services             ,health
+87-88,Social care services,social care
+90,"Creative, arts and entertainment services           ",
+91,"Libraries, archives, museums and other cultural services         ",libraries/museums
+92,Gambling and betting services            ,gambling
+93,Sports services and amusement and recreation services         ,sports/recreation
+94,Services furnished by membership organisations           ,membership orgs
+95,Repair services of computers and personal and household goods       ,repair computers etc.
+96,Other personal services             ,other personal

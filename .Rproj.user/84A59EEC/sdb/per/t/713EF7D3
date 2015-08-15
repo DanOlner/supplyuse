@@ -1,0 +1,18 @@
+{
+    "contents" : "#These both work\n1 + \n  2\n\n\n1\n+ 2\n\ndat <- data.frame(x = seq(1:10), y=runif(10))\n\n#fine\nggplot(dat, aes(x = x, y = y)) +\n         geom_point()\n\n#not fine!\nggplot(dat, aes(x = x, y = y)) \n  + geom_point()\n\n\n#orig minimum wage\nmw <- 6.5\n#increments through inflation\nmwi <- mw\n#inflation\ninf <- 0.02\n\nfor(yr in 2015:2020) {\n  \n  mwi = mwi + (mwi * inf)\n  \n}\n\nmwi",
+    "created" : 1436348403203.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "801965014",
+    "id" : "713EF7D3",
+    "lastKnownWriteTime" : 1436367349,
+    "path" : "C:/Users/geodo/Dropbox/R/Workspace/SupplyUseMatrix/mw.R",
+    "project_path" : "mw.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

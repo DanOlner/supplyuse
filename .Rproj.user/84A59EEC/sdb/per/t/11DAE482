@@ -1,0 +1,18 @@
+{
+    "contents" : "#Mess with PCA\n\n#data <- data.frame(ttwa = c(1:5), coal = c(1,2,3,3.5,4.5), elec = c(1:5), agri = c(1:5))\ndata <- data.frame(ttwa = c(1:5), coal = c(1,2,3,3.5,4.5), elec = c(1:5))\n\n#data <- data.frame(ttwa = c(1:5), coal = rep(1,times=5), elec = rep(1,times=5), agri = rep(1,times=5))\n\n\n#plot(data$coal, data$elec)\n\ndata <- as.matrix(data)\n\nplot(data[,2], data[,3])\n\ndata.pca <- prcomp(data[,2:3])\n                   \nsummary(data.pca)\n\nprint(data.pca)\n\nbiplot(data.pca, expand = 1)\n\ndata.pca$rotation\ndata.pca$x\n\nresults <- data.pca$x\nresultsr <- data.pca$rotation\n\nplot(results)\nplot(resultsr)\n",
+    "created" : 1438549491190.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3299472494",
+    "id" : "11DAE482",
+    "lastKnownWriteTime" : 1438800505,
+    "path" : "C:/Users/geodo/Dropbox/R/Workspace/SupplyUseMatrix/playWithPCA.R",
+    "project_path" : "playWithPCA.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
